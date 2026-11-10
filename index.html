@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Empire Electronics | Phones, Home Theatre and Appliances in Kahawa Wendani</title>
+<meta name="description" content="Empire Electronics in Kahawa Wendani, next to Wendani Police Station. Phones, home theatre systems, soundbars, water dispensers, blenders and kitchen appliances at affordable prices. Order on WhatsApp.">
+<meta name="theme-color" content="#0b1a4a">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Empire Electronics, Kahawa Wendani">
+<meta property="og:description" content="Phones, home theatre, water dispensers and kitchen appliances at affordable prices. Order on WhatsApp.">
+<meta property="og:image" content="img/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="img/logo.webp">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ElectronicsStore","name":"Empire Electronics",
+"image":"img/logo.webp","telephone":"+254714520474",
+"address":{"@type":"PostalAddress","streetAddress":"Next to Wendani Police Station","addressLocality":"Kahawa Wendani","addressRegion":"Kiambu","addressCountry":"KE"},
+"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"08:00","closes":"21:00"}],
+"priceRange":"KES 700 - KES 16,500",
+"sameAs":["https://whatsapp.com/channel/0029VbBPWgBGk1Fw24oNbC21"]}
+</script>
+<style>
+:root{--navy:#0b1a4a;--navy2:#13286b;--gold:#c9a24b;--gold2:#e6c978;--bg:#f6f4ee;--card:#fff;--ink:#14183a;--mute:#5b6080;--line:#e2dfd3;--wa:#1faa59;--radius:10px;--shadow:0 1px 2px rgba(11,26,74,.06),0 8px 24px rgba(11,26,74,.07)}
+:root[data-theme="dark"]{--bg:#0a1130;--card:#101a45;--ink:#eef0fa;--mute:#a4abd0;--line:#26346f;--shadow:0 1px 2px rgba(0,0,0,.3),0 8px 24px rgba(0,0,0,.25)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0a1130;--card:#101a45;--ink:#eef0fa;--mute:#a4abd0;--line:#26346f;--shadow:0 1px 2px rgba(0,0,0,.3),0 8px 24px rgba(0,0,0,.25)}}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.6 "Poppins",system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:Marcellus,Georgia,serif;font-weight:400;line-height:1.15;margin:0}
+a{color:inherit}
+img{max-width:100%}
+.wrap{max-width:1160px;margin:0 auto;padding:0 20px}
+.skip{position:absolute;left:-999px;top:8px;background:var(--gold);color:var(--navy);padding:8px 14px;z-index:20;border-radius:6px}
+.skip:focus{left:8px}
+:focus-visible{outline:3px solid var(--gold2);outline-offset:2px}
+.ico{width:20px;height:20px;flex:none;fill:currentColor}
+
+/* Header */
+header{position:sticky;top:0;z-index:10;background:var(--navy);color:#fff;border-bottom:2px solid var(--gold);padding-top:env(safe-area-inset-top,0px)}
+header .wrap{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:20px;min-height:66px}
+header nav{justify-content:center}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-family:Marcellus,serif;font-size:21px;color:var(--gold2);white-space:nowrap}
+.brand img{display:block;border-radius:8px}
+nav{display:flex;gap:26px;font-size:15px}
+nav a{text-decoration:none;color:#dfe3f7;padding:6px 0;border-bottom:2px solid transparent}
+nav a:hover,nav a:focus-visible{color:var(--gold2);border-color:var(--gold)}
+.hdr-actions{display:flex;align-items:center;gap:10px}
+.theme{background:transparent;border:1.5px solid rgba(230,201,120,.5);color:var(--gold2);width:40px;height:40px;border-radius:50%;display:grid;place-items:center;cursor:pointer}
+.theme:hover{border-color:var(--gold2)}
+.theme .moon{display:none}
+:root[data-theme="dark"] .theme .sun{display:none}:root[data-theme="dark"] .theme .moon{display:block}
+
+/* Buttons */
+.btn{display:inline-flex;align-items:center;gap:8px;background:var(--gold);color:var(--navy);text-decoration:none;padding:12px 22px;border-radius:6px;border:0;cursor:pointer;font:600 15px "Poppins",sans-serif;transition:background .15s,transform .15s}
+.btn:hover{background:var(--gold2)}
+.btn:active{transform:translateY(1px)}
+.btn.ghost{background:transparent;color:#fff;border:1.5px solid var(--gold)}
+.btn.ghost:hover{background:rgba(201,162,75,.15)}
+.btn.wa{background:var(--wa);color:#fff}
+.btn.wa:hover{background:#17934c}
+
+/* Hero */
+.hero{background:radial-gradient(circle at 80% 30%,var(--navy2),var(--navy) 65%);color:#fff;padding:76px 0 84px;overflow:hidden}
+.hero .wrap{display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:center}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--gold2);margin-bottom:16px}
+.eyebrow::before{content:"";width:28px;height:1.5px;background:var(--gold)}
+.hero h1{font-size:clamp(38px,6vw,64px);color:#fff}
+.hero h1 .gold{color:var(--gold2)}
+.hero p.lead{max-width:46ch;color:#cfd5f2;font-size:18px;margin:18px 0 28px}
+.cta{display:flex;gap:12px;flex-wrap:wrap}
+.facts{display:flex;flex-wrap:wrap;gap:10px 26px;margin-top:30px;color:#cfd5f2;font-size:14px}
+.facts span{display:inline-flex;align-items:center;gap:8px}
+.facts .ico{width:18px;height:18px;color:var(--gold2)}
+.crest{border-radius:28px;width:100%;height:auto;aspect-ratio:1;max-width:380px;justify-self:center;filter:drop-shadow(0 18px 30px rgba(0,0,0,.45))}
+
+/* Strip */
+.strip{background:var(--gold);color:var(--navy);font-weight:500}
+.strip .wrap{display:flex;flex-wrap:wrap;gap:8px 32px;justify-content:space-between;padding-top:12px;padding-bottom:12px;font-size:15px}
+
+/* Sections */
+section{padding:72px 0}
+h2{font-size:clamp(28px,4vw,40px);margin-bottom:8px}
+.sub{color:var(--mute);margin:0 0 28px;max-width:62ch}
+
+/* Shop tools */
+.tools{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:16px}
+.search{flex:1 1 280px;position:relative}
+.search .ico{position:absolute;left:14px;top:50%;transform:translateY(-50%);color:var(--mute)}
+.search input,.tools select{width:100%;height:48px;border:1.5px solid var(--line);background:var(--card);color:var(--ink);border-radius:var(--radius);font:400 15px "Poppins",sans-serif;padding:0 14px}
+.search input{padding-left:44px}
+.search input:focus,.tools select:focus{outline:none;border-color:var(--gold)}
+.tools select{flex:0 0 auto;width:auto;min-width:190px;cursor:pointer}
+.filters{display:flex;gap:8px;margin-bottom:24px;overflow-x:auto;padding-bottom:4px;scrollbar-width:thin}
+.chip{flex:none;border:1.5px solid var(--line);background:var(--card);color:var(--ink);padding:8px 16px;border-radius:999px;cursor:pointer;font:500 14px "Poppins",sans-serif;white-space:nowrap}
+.chip:hover{border-color:var(--gold)}
+.chip[aria-pressed="true"]{background:var(--navy);color:var(--gold2);border-color:var(--navy)}
+:root[data-theme="dark"] .chip[aria-pressed="true"]{background:var(--gold);color:var(--navy);border-color:var(--gold)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .chip[aria-pressed="true"]{background:var(--gold);color:var(--navy);border-color:var(--gold)}}
+.chip small{opacity:.65;margin-left:4px;font-size:12px}
+.count{color:var(--mute);font-size:14px;margin:0 0 14px}
+
+/* Product grid */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:20px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;display:flex;flex-direction:column;box-shadow:var(--shadow);transition:transform .2s,box-shadow .2s}
+.card:hover{transform:translateY(-3px);box-shadow:0 2px 4px rgba(11,26,74,.08),0 16px 32px rgba(11,26,74,.12)}
+.card .pic{position:relative;background:linear-gradient(160deg,var(--navy2),var(--navy));aspect-ratio:4/3;display:grid;place-items:center;overflow:hidden}
+.card .pic svg{width:52%;height:auto}
+.card .pic img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .35s}
+.card:hover .pic img{transform:scale(1.04)}
+.badge{position:absolute;top:10px;left:10px;background:rgba(11,26,74,.85);color:var(--gold2);font-size:12px;padding:3px 10px;border-radius:999px}
+.card .body{padding:16px;display:flex;flex-direction:column;gap:4px;flex:1}
+.card h3{font-size:19px}
+.card .cat{font-size:13px;color:var(--mute)}
+.card .row{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:auto;padding-top:14px}
+.price{font-weight:600;font-size:17px;color:var(--ink)}
+.price.ask{font-weight:500;font-size:15px;color:var(--mute)}
+.order{display:inline-flex;align-items:center;gap:6px;font-size:14px;font-weight:600;color:#fff;background:var(--wa);padding:9px 14px;border-radius:6px;text-decoration:none;white-space:nowrap}
+.order:hover{background:#17934c}
+.order .ico{width:16px;height:16px}
+.card.ask-card{background:linear-gradient(160deg,var(--navy2),var(--navy));color:#fff;border-color:var(--navy);justify-content:center;padding:28px;gap:10px}
+.card.ask-card h3{color:var(--gold2);font-size:22px}
+.card.ask-card p{margin:0 0 8px;color:#cfd5f2;font-size:15px}
+.empty{grid-column:1/-1;text-align:center;padding:40px 20px;background:var(--card);border:1px dashed var(--line);border-radius:var(--radius)}
+.empty p{color:var(--mute);margin:6px 0 18px}
+
+/* Why */
+.why{background:var(--navy);color:#fff}
+.why .sub{color:#aab2dc}
+.why .grid{grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:28px}
+.why .item{border-top:2px solid var(--gold);padding-top:20px}
+.why .item .ico{width:30px;height:30px;color:var(--gold2);margin-bottom:12px}
+.why h3{color:var(--gold2);font-size:22px;margin-bottom:6px}
+.why p{margin:0;color:#cfd5f2}
+
+/* Visit */
+.visit-grid{display:grid;grid-template-columns:1fr 1.1fr;gap:24px;align-items:stretch}
+.box{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:28px;box-shadow:var(--shadow)}
+.box h2{margin-bottom:18px}
+.box dl{margin:0 0 24px;display:grid;grid-template-columns:96px 1fr;gap:12px 14px}
+.box dt{color:var(--mute)}.box dd{margin:0}
+.nums a{white-space:nowrap}.nums small{color:var(--mute)}
+.box dd a{text-decoration-color:var(--gold);text-underline-offset:3px}
+.open-now{display:inline-block;margin-left:6px;font-size:12px;font-weight:600;padding:2px 9px;border-radius:999px;background:rgba(31,170,89,.15);color:var(--wa)}
+.open-now.closed{background:rgba(180,60,60,.14);color:#c0504d}
+.map{border-radius:var(--radius);overflow:hidden;border:1px solid var(--line);min-height:340px;background:var(--card);box-shadow:var(--shadow)}
+.map iframe{width:100%;height:100%;min-height:340px;border:0;display:block}
+.channel{margin-top:24px;display:flex;gap:28px;align-items:center;background:linear-gradient(120deg,var(--navy),var(--navy2));color:#fff;border-radius:var(--radius);padding:28px}
+.channel svg{width:150px;height:150px;background:#fff;padding:8px;border-radius:8px;flex:none}
+.channel h2{color:var(--gold2);font-size:30px}
+.channel p{color:#cfd5f2;margin:6px 0 18px}
+
+/* Footer */
+footer{background:var(--navy);color:#aab2dc;padding:40px 0 28px;font-size:14px;border-top:2px solid var(--gold)}
+footer .cols{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:28px}
+footer h4{font:500 14px "Poppins",sans-serif;color:var(--gold2);margin:0 0 10px;letter-spacing:.06em;text-transform:uppercase}
+footer a{color:#dfe3f7;text-decoration:none}footer a:hover{color:var(--gold2)}
+footer ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+footer .legal{margin-top:28px;padding-top:18px;border-top:1px solid rgba(255,255,255,.1);display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+
+/* Floating WhatsApp (desktop) and action bar (mobile) */
+.fab{position:fixed;right:22px;bottom:22px;z-index:9;width:58px;height:58px;border-radius:50%;background:var(--wa);color:#fff;display:grid;place-items:center;box-shadow:0 8px 24px rgba(0,0,0,.25)}
+.fab .ico{width:30px;height:30px}
+.fab:hover{background:#17934c}
+.actionbar{display:none}
+
+@media(max-width:860px){
+ .visit-grid{grid-template-columns:1fr}
+ footer .cols{grid-template-columns:1fr 1fr}
+ footer .cols>div:first-child{grid-column:1/-1}
+}
+@media(max-width:760px){
+ html{scroll-padding-top:120px}
+ header .wrap{grid-template-columns:1fr auto;gap:0 12px;min-height:0;padding-top:10px}
+ #hdrActions{grid-row:1;grid-column:2}
+ header nav{grid-row:2;grid-column:1/-1;justify-content:flex-start;padding-top:6px!important}
+ .brand{font-size:19px}
+ .hdr-btn-text{display:none}
+ .hdr-actions .btn{padding:10px}
+ nav{gap:22px;overflow-x:auto;padding:0 20px 10px;margin:0 -20px;scrollbar-width:none}
+ nav::-webkit-scrollbar{display:none}
+ .hero{padding:40px 0 52px}
+ .hero .wrap{grid-template-columns:1fr;gap:24px}
+ .crest{max-width:120px;border-radius:18px;order:-1;justify-self:start}
+ .hero .cta .btn{flex:1 1 auto;justify-content:center}
+ .strip .wrap{justify-content:flex-start;gap:4px 20px;font-size:14px}
+ section{padding:52px 0}
+ .tools select{flex:1 1 100%}
+ .grid{grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:14px}
+ .card h3{font-size:16px}
+ .card .body{padding:12px}
+ .card .row{flex-direction:column;align-items:stretch;gap:8px}
+ .order{justify-content:center}
+ .channel{flex-direction:column;text-align:center}
+ .box{padding:22px}.box dl{grid-template-columns:82px 1fr}.box .cta .btn{flex:1 1 100%;justify-content:center}
+ .fab{display:none}
+ .actionbar{display:grid;grid-template-columns:repeat(3,1fr);position:fixed;left:0;right:0;bottom:0;z-index:9;background:var(--navy);border-top:2px solid var(--gold);padding-bottom:env(safe-area-inset-bottom,0px)}
+ .actionbar a{display:flex;flex-direction:column;align-items:center;gap:2px;padding:9px 0 8px;color:#dfe3f7;text-decoration:none;font-size:12px}
+ .actionbar a .ico{width:22px;height:22px;color:var(--gold2)}
+ .actionbar a.wa-link .ico{color:#3ddc84}
+ body{padding-bottom:calc(64px + env(safe-area-inset-bottom,0px))}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+ <symbol id="i-wa" viewBox="0 0 24 24"><path d="M17.5 14.4c-.3-.1-1.8-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.4-.5.3-.5c.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.1-.3-.2-.6-.3zM12 21.8c-1.8 0-3.5-.5-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4C2.7 15.6 2.2 13.8 2.2 12 2.2 6.6 6.6 2.2 12 2.2c2.6 0 5.1 1 6.9 2.9 1.8 1.8 2.9 4.3 2.9 6.9 0 5.4-4.4 9.8-9.8 9.8zM20.5 3.5C18.2 1.2 15.2 0 12 0 5.4 0 0 5.4 0 12c0 2.1.6 4.2 1.6 6L0 24l6.2-1.6c1.8 1 3.8 1.5 5.8 1.5 6.6 0 12-5.4 12-12 0-3.2-1.2-6.2-3.5-8.4z"/></symbol>
+ <symbol id="i-phone" viewBox="0 0 24 24"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1z"/></symbol>
+ <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></symbol>
+ <symbol id="i-clock" viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm0 18a8 8 0 1 1 0-16 8 8 0 0 1 0 16zm.5-13H11v6l5.2 3.2.8-1.3-4.5-2.7z"/></symbol>
+ <symbol id="i-search" viewBox="0 0 24 24"><path d="M15.5 14h-.8l-.3-.3A6.5 6.5 0 1 0 9.5 16a6.5 6.5 0 0 0 4.2-1.6l.3.3v.8l5 5 1.5-1.5-5-5zm-6 0a4.5 4.5 0 1 1 0-9 4.5 4.5 0 0 1 0 9z"/></symbol>
+ <symbol id="i-tag" viewBox="0 0 24 24"><path d="M21.4 11.6l-9-9C12.1 2.2 11.6 2 11 2H4c-1.1 0-2 .9-2 2v7c0 .6.2 1.1.6 1.4l9 9c.4.4.9.6 1.4.6s1-.2 1.4-.6l7-7c.4-.4.6-.9.6-1.4s-.2-1.1-.6-1.4zM5.5 7A1.5 1.5 0 1 1 5.5 4a1.5 1.5 0 0 1 0 3z"/></symbol>
+ <symbol id="i-box" viewBox="0 0 24 24"><path d="M21 7.5l-9-5-9 5v9l9 5 9-5v-9zM12 4.8l5.9 3.3L12 11.3 6.1 8.1 12 4.8zM5 9.8l6 3.3v6.4l-6-3.3V9.8zm8 9.7v-6.4l6-3.3v6.4l-6 3.3z"/></symbol>
+ <symbol id="i-chat" viewBox="0 0 24 24"><path d="M20 2H4a2 2 0 0 0-2 2v18l4-4h14a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zm0 14H5.2L4 17.2V4h16v12zM7 9h10v2H7zm0-3h10v2H7zm0 6h7v2H7z"/></symbol>
+ <symbol id="i-sun" viewBox="0 0 24 24"><path d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zM11 1h2v3h-2zm0 19h2v3h-2zM3.5 4.9l1.4-1.4 2.1 2.1-1.4 1.4zm12.7 12.7 1.4-1.4 2.1 2.1-1.4 1.4zM1 11h3v2H1zm19 0h3v2h-3zM3.5 19.1l2.1-2.1 1.4 1.4-2.1 2.1zM16.2 5.6l2.1-2.1 1.4 1.4-2.1 2.1z"/></symbol>
+ <symbol id="i-moon" viewBox="0 0 24 24"><path d="M12.3 2a10 10 0 1 0 9.7 12.4A8 8 0 0 1 12.3 2z"/></symbol>
+</svg>
+<a class="skip" href="#shop">Skip to products</a>
+
+<header><div class="wrap">
+ <a class="brand" href="#top" aria-label="Empire Electronics home"><img src="img/logo.webp" width="42" height="42" alt="">Empire Electronics</a>
+ <nav aria-label="Main"><a href="#shop">Shop</a><a href="#why">Why Empire</a><a href="#visit">Visit us</a><a href="https://whatsapp.com/channel/0029VbBPWgBGk1Fw24oNbC21" target="_blank" rel="noopener">Channel</a></nav>
+ <div class="hdr-actions" id="hdrActions">
+  <button class="theme" id="themeBtn" type="button" aria-label="Switch light or dark mode"><svg class="ico sun"><use href="#i-sun"/></svg><svg class="ico moon"><use href="#i-moon"/></svg></button>
+  <a class="btn wa" href="https://wa.me/254702854231" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><svg class="ico"><use href="#i-wa"/></svg><span class="hdr-btn-text">Chat on WhatsApp</span></a>
+ </div>
+</div></header>
+
+<main id="top">
+<div class="hero"><div class="wrap">
+ <div>
+  <span class="eyebrow">Kahawa Wendani electronics shop</span>
+  <h1>Power your home with <span class="gold">royal quality.</span></h1>
+  <p class="lead">Phones, home theatre systems, soundbars, water dispensers and kitchen appliances at affordable prices. See the price here, then order on WhatsApp.</p>
+  <div class="cta">
+   <a class="btn" href="#shop">Browse products</a>
+   <a class="btn wa" href="https://wa.me/254702854231" target="_blank" rel="noopener"><svg class="ico"><use href="#i-wa"/></svg>Order on WhatsApp</a>
+  </div>
+  <div class="facts">
+   <span><svg class="ico"><use href="#i-pin"/></svg>Next to Wendani Police Station</span>
+   <span><svg class="ico"><use href="#i-clock"/></svg>Open 8:00 am to 9:00 pm</span>
+   <span><svg class="ico"><use href="#i-phone"/></svg><a href="tel:+254714520474">0714 520 474</a></span>
+  </div>
+ </div>
+ <img class="crest" src="img/logo.webp" width="380" height="380" alt="Empire Electronics crest logo">
+</div></div>
+<div class="strip"><div class="wrap"><span>Phones and accessories</span><span>Home theatre and soundbars</span><span>Water dispensers</span><span>Kitchen appliances</span></div></div>
+
+<section id="shop"><div class="wrap">
+ <h2>Shop our products</h2>
+ <p class="sub">Prices in KES from our WhatsApp channel, last updated <span id="updated"></span>. Tap Order and we will confirm today's price and stock before you travel.</p>
+ <div class="tools">
+  <label class="search"><span class="skip" style="position:absolute;left:-999px">Search products</span><svg class="ico"><use href="#i-search"/></svg><input id="q" type="search" placeholder="Search, e.g. blender, Sonar, soundbar" autocomplete="off"></label>
+  <select id="sort" aria-label="Sort products">
+   <option value="default">Sort: Featured</option>
+   <option value="low">Price: low to high</option>
+   <option value="high">Price: high to low</option>
+  </select>
+ </div>
+ <div class="filters" id="filters" role="group" aria-label="Filter by category"></div>
+ <p class="count" id="count" aria-live="polite"></p>
+ <div class="grid" id="grid"></div>
+</div></section>
+
+<section class="why" id="why"><div class="wrap">
+ <h2>Why shop at Empire</h2>
+ <p class="sub">A small shop that treats every customer like royalty.</p>
+ <div class="grid">
+  <div class="item"><svg class="ico"><use href="#i-box"/></svg><h3>Everything under one roof</h3><p>Phones, speakers, soundbars, dispensers and kitchen appliances in one shop.</p></div>
+  <div class="item"><svg class="ico"><use href="#i-tag"/></svg><h3>Clear prices</h3><p>Prices are posted here and on our channel, so you know what to expect before you visit.</p></div>
+  <div class="item"><svg class="ico"><use href="#i-chat"/></svg><h3>Easy to reach</h3><p>Call or message us on WhatsApp and we will confirm stock before you travel.</p></div>
+ </div>
+</div></section>
+
+<section id="visit"><div class="wrap">
+ <div class="visit-grid">
+  <div class="box">
+   <h2>Visit the shop</h2>
+   <dl>
+    <dt>Address</dt><dd>Kahawa Wendani, next to Wendani Police Station</dd>
+    <dt>Hours</dt><dd>8:00 am to 9:00 pm <span class="open-now" id="openNow" hidden></span></dd>
+    <dt>Calls</dt><dd><a href="tel:+254714520474">0714 520 474</a></dd>
+    <dt>WhatsApp</dt><dd class="nums"><a href="https://wa.me/254702854231" target="_blank" rel="noopener">0702 854 231</a> <small>(calls too)</small><br><a href="https://wa.me/254732515159" target="_blank" rel="noopener">0732 515 159</a><br><a href="https://wa.me/254711867589" target="_blank" rel="noopener">0711 867 589</a></dd>
+   </dl>
+   <div class="cta">
+    <a class="btn" href="https://www.google.com/maps/dir/?api=1&amp;destination=Wendani+Police+Station,+Kahawa+Wendani" target="_blank" rel="noopener"><svg class="ico"><use href="#i-pin"/></svg>Get directions</a>
+    <a class="btn wa" href="https://wa.me/254702854231" target="_blank" rel="noopener"><svg class="ico"><use href="#i-wa"/></svg>WhatsApp us</a>
+   </div>
+  </div>
+  <div class="map"><iframe title="Map showing Empire Electronics near Wendani Police Station" src="https://maps.google.com/maps?q=Wendani%20Police%20Station%2C%20Kahawa%20Wendani&amp;z=16&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+ </div>
+ <div class="channel">
+  <svg viewBox="0 0 33 33" shape-rendering="crispEdges" role="img" aria-label="QR code for the Empire Electronics WhatsApp channel" xmlns="http://www.w3.org/2000/svg"><path class="qrline" stroke="#000" d="M0 0.5h7m2 0h1m1 0h1m1 0h2m3 0h4m1 0h1m2 0h7m-33 1h1m5 0h1m2 0h3m1 0h4m1 0h1m1 0h1m1 0h1m3 0h1m5 0h1m-33 1h1m1 0h3m1 0h1m1 0h2m1 0h3m2 0h1m2 0h6m1 0h1m1 0h3m1 0h1m-33 1h1m1 0h3m1 0h1m1 0h1m1 0h3m1 0h1m1 0h1m1 0h3m5 0h1m1 0h3m1 0h1m-33 1h1m1 0h3m1 0h1m1 0h1m3 0h1m2 0h1m2 0h2m1 0h3m2 0h1m1 0h3m1 0h1m-33 1h1m5 0h1m1 0h1m1 0h3m2 0h4m2 0h1m2 0h1m1 0h1m5 0h1m-33 1h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7m-25 1h1m6 0h1m3 0h1m1 0h3m-24 1h1m1 0h5m3 0h1m1 0h2m1 0h1m1 0h1m4 0h1m3 0h5m-31 1h3m6 0h1m1 0h1m2 0h1m3 0h2m1 0h3m2 0h2m1 0h3m-31 1h4m1 0h1m1 0h1m6 0h1m2 0h1m1 0h1m3 0h2m2 0h1m1 0h2m-31 1h2m1 0h2m1 0h1m1 0h2m3 0h3m1 0h1m1 0h2m3 0h2m1 0h4m-29 1h1m1 0h4m2 0h1m6 0h3m3 0h2m1 0h3m2 0h1m-29 1h2m1 0h2m2 0h9m1 0h2m6 0h4m-33 1h3m2 0h2m1 0h1m1 0h1m2 0h2m3 0h1m1 0h2m3 0h2m1 0h1m2 0h1m-30 1h1m1 0h1m2 0h3m1 0h2m3 0h1m1 0h2m1 0h1m2 0h3m2 0h2m-31 1h1m4 0h2m2 0h1m1 0h1m2 0h1m2 0h1m4 0h1m2 0h1m1 0h2m3 0h1m-33 1h2m2 0h2m3 0h1m3 0h2m1 0h8m1 0h3m1 0h4m-32 1h1m1 0h1m1 0h7m2 0h4m2 0h3m4 0h2m1 0h1m-29 1h4m1 0h1m4 0h2m1 0h7m2 0h1m1 0h5m1 0h1m-33 1h1m2 0h1m2 0h1m1 0h2m5 0h2m2 0h1m2 0h1m2 0h1m3 0h1m-30 1h1m3 0h1m3 0h1m2 0h1m1 0h1m1 0h1m2 0h1m1 0h2m1 0h2m5 0h1m1 0h1m-33 1h1m3 0h4m1 0h1m2 0h1m2 0h2m1 0h1m2 0h1m3 0h1m1 0h1m3 0h1m-32 1h1m1 0h3m2 0h3m2 0h4m3 0h1m1 0h1m1 0h5m1 0h3m-32 1h1m2 0h1m2 0h2m1 0h3m2 0h2m1 0h1m5 0h6m1 0h2m-24 1h1m2 0h4m1 0h1m1 0h3m3 0h1m3 0h1m1 0h3m-33 1h7m5 0h1m2 0h1m2 0h1m1 0h1m1 0h3m1 0h1m1 0h1m1 0h1m-31 1h1m5 0h1m1 0h2m4 0h1m1 0h1m2 0h1m1 0h4m3 0h3m-31 1h1m1 0h3m1 0h1m1 0h2m1 0h4m3 0h1m2 0h2m1 0h6m-30 1h1m1 0h3m1 0h1m1 0h2m5 0h3m1 0h2m3 0h2m2 0h1m1 0h3m-33 1h1m1 0h3m1 0h1m1 0h2m1 0h1m1 0h1m3 0h1m4 0h1m3 0h2m-28 1h1m5 0h1m2 0h1m1 0h1m1 0h1m2 0h1m1 0h4m3 0h1m2 0h3m-31 1h7m1 0h1m1 0h2m5 0h1m1 0h1m2 0h6m1 0h3"/></svg>
+
+  <div>
+   <h2>Follow our WhatsApp channel</h2>
+   <p>Scan the code or tap the button to get new arrivals, offers and price updates first.</p>
+   <a class="btn" href="https://whatsapp.com/channel/0029VbBPWgBGk1Fw24oNbC21" target="_blank" rel="noopener">Open channel</a>
+  </div>
+ </div>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+ <div class="cols">
+  <div><a class="brand" href="#top"><img src="img/logo.webp" width="36" height="36" alt="" loading="lazy">Empire Electronics</a><p style="margin:12px 0 0;max-width:36ch">Affordable phones, home theatre and household appliances in Kahawa Wendani.</p></div>
+  <div><h4>Visit</h4><ul><li>Next to Wendani Police Station</li><li>8:00 am to 9:00 pm</li><li><a href="https://www.google.com/maps/dir/?api=1&amp;destination=Wendani+Police+Station,+Kahawa+Wendani" target="_blank" rel="noopener">Get directions</a></li></ul></div>
+  <div><h4>Contact</h4><ul><li><a href="tel:+254714520474">Call 0714 520 474</a></li><li><a href="https://wa.me/254702854231" target="_blank" rel="noopener">WhatsApp 0702 854 231</a></li><li><a href="https://whatsapp.com/channel/0029VbBPWgBGk1Fw24oNbC21" target="_blank" rel="noopener">Our WhatsApp channel</a></li></ul></div>
+ </div>
+ <div class="legal"><span>© <span id="yr">2026</span> Empire Electronics</span><span>Prices may change. Please confirm on WhatsApp.</span></div>
+</div></footer>
+
+<a class="fab" href="https://wa.me/254702854231" target="_blank" rel="noopener" aria-label="Chat with us on WhatsApp"><svg class="ico"><use href="#i-wa"/></svg></a>
+<nav class="actionbar" aria-label="Quick actions">
+ <a href="tel:+254714520474"><svg class="ico"><use href="#i-phone"/></svg>Call</a>
+ <a class="wa-link" href="https://wa.me/254702854231" target="_blank" rel="noopener"><svg class="ico"><use href="#i-wa"/></svg>WhatsApp</a>
+ <a href="https://www.google.com/maps/dir/?api=1&amp;destination=Wendani+Police+Station,+Kahawa+Wendani" target="_blank" rel="noopener"><svg class="ico"><use href="#i-pin"/></svg>Directions</a>
+</nav>
+
+<script src="products.js"></script>
+<script>
+(function(){
+ var D=window.EMPIRE, P=D.products.map(function(p,i){p._i=i;return p});
+ var WA="https://wa.me/"+D.orderNumber+"?text=";
+ var S={spk:'<rect x="36" y="6" width="48" height="108" rx="8" fill="#e6c978"/><circle cx="60" cy="34" r="12" fill="#0b1a4a"/><circle cx="60" cy="78" r="20" fill="#0b1a4a"/><circle cx="60" cy="78" r="8" fill="#c9a24b"/>',
+ phone:'<rect x="34" y="6" width="52" height="108" rx="10" fill="#e6c978"/><rect x="40" y="16" width="40" height="84" rx="3" fill="#0b1a4a"/><circle cx="60" cy="108" r="3" fill="#0b1a4a"/>',
+ blend:'<path d="M36 8h48l-6 62H42Z" fill="#f4dc8c"/><rect x="30" y="72" width="60" height="38" rx="7" fill="#e6c978"/><circle cx="60" cy="91" r="7" fill="#0b1a4a"/>',
+ disp:'<rect x="34" y="4" width="52" height="30" rx="8" fill="#8fb3ff"/><rect x="30" y="38" width="60" height="70" rx="6" fill="#e6c978"/><rect x="48" y="52" width="24" height="8" fill="#0b1a4a"/><rect x="44" y="76" width="32" height="20" rx="2" fill="#0b1a4a"/>',
+ kettle:'<path d="M30 40h50l8 60H22Z" fill="#e6c978"/><path d="M80 52h14a10 10 0 0 1 0 28H84" fill="none" stroke="#c9a24b" stroke-width="6"/><path d="M40 40l10-14h10l10 14" fill="#c9a24b"/>',
+ tv:'<rect x="8" y="20" width="104" height="66" rx="5" fill="#e6c978"/><rect x="14" y="26" width="92" height="54" fill="#0b1a4a"/><rect x="50" y="88" width="20" height="10" fill="#c9a24b"/><rect x="34" y="98" width="52" height="6" rx="3" fill="#e6c978"/>',
+ laptop:'<rect x="22" y="22" width="76" height="54" rx="4" fill="#e6c978"/><rect x="28" y="28" width="64" height="42" fill="#0b1a4a"/><path d="M10 82h100l-8 12H18Z" fill="#c9a24b"/>',
+ fan:'<circle cx="60" cy="46" r="34" fill="none" stroke="#c9a24b" stroke-width="5"/><path d="M60 46c-4-24 14-28 16-14zM60 46c22-10 30 8 16 14zM60 46c-12 20-28 8-18-6z" fill="#e6c978"/><rect x="56" y="82" width="8" height="24" fill="#e6c978"/><rect x="38" y="106" width="44" height="6" rx="3" fill="#c9a24b"/>',
+ bulb:'<path d="M60 8a30 30 0 0 0-16 56v14h32V64A30 30 0 0 0 60 8Z" fill="#f4dc8c"/><rect x="46" y="82" width="28" height="8" fill="#c9a24b"/><rect x="50" y="94" width="20" height="8" rx="3" fill="#8d94bd"/>',
+ plug:'<rect x="14" y="34" width="92" height="36" rx="8" fill="#e6c978"/><g fill="#0b1a4a"><rect x="24" y="44" width="10" height="16" rx="2"/><rect x="42" y="44" width="10" height="16" rx="2"/><rect x="60" y="44" width="10" height="16" rx="2"/><rect x="78" y="44" width="10" height="16" rx="2"/></g><path d="M106 52h10" stroke="#c9a24b" stroke-width="5"/>'};
+ function esc(s){return String(s).replace(/[&<>"']/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]})}
+ function kes(n){return "KES "+n.toLocaleString("en-KE")}
+ var cats=["All"]; P.forEach(function(p){if(cats.indexOf(p.cat)<0)cats.push(p.cat)});
+ var cur="All", f=document.getElementById("filters"), g=document.getElementById("grid"), q=document.getElementById("q"), sortSel=document.getElementById("sort"), countEl=document.getElementById("count");
+ document.getElementById("updated").textContent=D.pricesUpdated;
+ document.getElementById("yr").textContent=new Date().getFullYear();
+
+ function chips(){
+  f.innerHTML=cats.map(function(c){var n=c==="All"?P.length:P.filter(function(p){return p.cat===c}).length;
+   return '<button type="button" class="chip" aria-pressed="'+(c===cur)+'" data-c="'+esc(c)+'">'+esc(c)+'<small>'+n+'</small></button>'}).join("");
+ }
+ function card(p){
+  var msg=p.price==null?"Hello Empire Electronics, what is the price of the "+p.name+"? Is it in stock?":"Hello Empire Electronics, I would like to order the "+p.name+" (listed at "+kes(p.price)+"). Is it in stock?";
+  var pic=p.img?'<img src="img/'+esc(p.img)+'" alt="'+esc(p.name)+'" width="420" height="315" loading="lazy" decoding="async">':'<svg viewBox="0 0 120 120" aria-hidden="true">'+(S[p.icon]||S.plug)+'</svg>';
+  return '<article class="card"><div class="pic">'+pic+'</div><div class="body"><span class="cat">'+esc(p.cat)+'</span><h3>'+esc(p.name)+'</h3><div class="row">'+
+   (p.price==null?'<span class="price ask">Ask for price</span>':'<span class="price">'+kes(p.price)+'</span>')+
+   '<a class="order" target="_blank" rel="noopener" href="'+WA+encodeURIComponent(msg)+'"><svg class="ico"><use href="#i-wa"/></svg>'+(p.price==null?"Ask":"Order")+'</a></div></div></article>';
+ }
+ function draw(){
+  var term=q.value.trim().toLowerCase(), words=term.split(/\s+/).filter(Boolean);
+  var list=P.filter(function(p){
+   if(cur!=="All"&&p.cat!==cur)return false;
+   var hay=(p.name+" "+p.cat).toLowerCase();
+   return words.every(function(w){return hay.indexOf(w)>=0});
+  });
+  var s=sortSel.value;
+  list.sort(function(a,b){
+   if(s==="default")return a._i-b._i;
+   if(a.price==null&&b.price==null)return a._i-b._i;
+   if(a.price==null)return 1; if(b.price==null)return -1;
+   return s==="low"?a.price-b.price:b.price-a.price;
+  });
+  countEl.textContent=list.length+" product"+(list.length===1?"":"s")+(cur!=="All"?" in "+cur:"")+(term?' matching "'+q.value.trim()+'"':"");
+  if(!list.length){
+   var ask=WA+encodeURIComponent("Hello Empire Electronics, do you have "+q.value.trim()+"?");
+   g.innerHTML='<div class="empty"><h3>Nothing matches that yet</h3><p>We get new stock often. Ask us and we will tell you what we have.</p><a class="btn wa" target="_blank" rel="noopener" href="'+ask+'"><svg class="ico"><use href="#i-wa"/></svg>Ask on WhatsApp</a></div>';
+   return;
+  }
+  g.innerHTML=list.map(card).join("")+
+   '<div class="card ask-card"><h3>Looking for something else?</h3><p>Phones, laptops, TVs and more. Tell us what you need and we will check stock.</p><a class="btn wa" target="_blank" rel="noopener" href="'+WA+encodeURIComponent("Hello Empire Electronics, I am looking for: ")+'"><svg class="ico"><use href="#i-wa"/></svg>Ask us</a></div>';
+ }
+ f.addEventListener("click",function(e){var b=e.target.closest(".chip");if(b){cur=b.getAttribute("data-c");chips();draw()}});
+ q.addEventListener("input",draw); sortSel.addEventListener("change",draw);
+ chips(); draw();
+
+ // Open now badge (Kenya time, 8am to 9pm)
+ try{
+  var h=Number(new Intl.DateTimeFormat("en-GB",{hour:"numeric",hourCycle:"h23",timeZone:"Africa/Nairobi"}).format(new Date()));
+  var o=document.getElementById("openNow"), open=h>=8&&h<21;
+  o.textContent=open?"Open now":"Closed now"; if(!open)o.classList.add("closed"); o.hidden=false;
+ }catch(e){}
+
+ // Theme toggle
+ var root=document.documentElement, btn=document.getElementById("themeBtn");
+ try{var saved=localStorage.getItem("empire-theme");if(saved)root.setAttribute("data-theme",saved)}catch(e){}
+ btn.addEventListener("click",function(){
+  var dark=root.getAttribute("data-theme")==="dark"||(!root.getAttribute("data-theme")&&matchMedia("(prefers-color-scheme: dark)").matches);
+  var next=dark?"light":"dark"; root.setAttribute("data-theme",next);
+  try{localStorage.setItem("empire-theme",next)}catch(e){}
+ });
+})();
+</script>
+</body>
+</html>
